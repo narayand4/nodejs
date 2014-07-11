@@ -6,10 +6,10 @@ Node js examples for beginners.
 
 Install latest nodejs
 -------------------------------------------------------------
-sudo apt-get install python-software-properties
-sudo add-apt-repository ppa:chris-lea/node.js
-sudo apt-get update
-sudo apt-get install nodejs
+sudo apt-get install python-software-properties<br>
+sudo add-apt-repository ppa:chris-lea/node.js<br>
+sudo apt-get update<br>
+sudo apt-get install nodejs<br>
 
 Install latest NPM
 --------------------------------------------------------------
