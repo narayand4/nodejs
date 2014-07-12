@@ -19,4 +19,9 @@ Install postgres nodejs driver for connectivity with nodejs
 --------------------------------------------------------------
 $ sudo npm install pg
 
+Install mysql nodejs driver for connectivity with nodejs
+--------------------------------------------------------------
+$ sudo npm install mysql
+more help https://www.npmjs.org/package/mysql
+
 
