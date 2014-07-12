@@ -15,11 +15,11 @@ Install latest NPM
 --------------------------------------------------------------
 $ sudo npm install npm-latest
 
-Install postgres nodejs driver for connectivity with nodejs
+Install postgres nodejs driver
 --------------------------------------------------------------
 $ sudo npm install pg
 
-Install mysql nodejs driver for connectivity with nodejs
+Install mysql nodejs driver
 --------------------------------------------------------------
 $ sudo npm install mysql<br>
 more help https://www.npmjs.org/package/mysql
