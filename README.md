@@ -21,7 +21,7 @@ $ sudo npm install pg
 
 Install mysql nodejs driver for connectivity with nodejs
 --------------------------------------------------------------
-$ sudo npm install mysql
+$ sudo npm install mysql<br>
 more help https://www.npmjs.org/package/mysql
 
 
