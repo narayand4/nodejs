@@ -13,7 +13,7 @@ $ sudo apt-get install nodejs<br>
 
 Install latest NPM
 --------------------------------------------------------------
-https://www.npmjs.org/package/npm-latest
+$ sudo npm install npm-latest
 
 Install postgres nodejs driver for connectivity with nodejs
 --------------------------------------------------------------
