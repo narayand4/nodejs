@@ -24,4 +24,9 @@ Install mysql nodejs driver
 $ sudo npm install mysql<br>
 more help https://www.npmjs.org/package/mysql
 
+Install mongodb nodejs driver
+--------------------------------------------------------------
+$ sudo npm install mongodb<br>
+$ sudo npm install mongoose<br>
+more help http://docs.mongodb.org/ecosystem/drivers/node-js/
 
