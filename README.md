@@ -1,7 +1,8 @@
 nodejs
 ======
 
-Node js examples for beginners.
+Node js sample codes for beginners. We can get output of every nodejs codes using terminal. like<br>
+$ node mysql.js
 
 
 Install latest nodejs
@@ -29,4 +30,9 @@ Install mongodb nodejs driver
 $ sudo npm install mongodb<br>
 $ sudo npm install mongoose<br>
 more help http://docs.mongodb.org/ecosystem/drivers/node-js/
+
+Install sqlite nodejs driver
+--------------------------------------------------------------
+$ sudo npm install sqlite3<br>
+more help https://www.npmjs.org/package/sqlite3
 
