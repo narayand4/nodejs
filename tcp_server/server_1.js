@@ -5,8 +5,8 @@ server.on('listening', function() {
 });
 server.on('connection', function(socket) {
 	console.log('Server has a new connection');
-	socket.end();
-	server.close();
+	//socket.end();
+	//server.close();
 });
 server.on('close', function() {
 	console.log('Server is now closed');
