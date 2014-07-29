@@ -38,9 +38,9 @@ more help https://www.npmjs.org/package/sqlite3
 
 Create Chat server:
 --------------------------------------------------------------
-tcp_server/chat_app/server.js -> run this command in terminal
-$ node server.js
-then now open two other terminals so now there are theree terminals one is server and other two terminals are two clients. 
-Please type this command in both client terminals.
-$ nc localhost 4002
-Now type anything in client 1 terminal and the result will be show in second client 2 terminal. Type anything in second client terminal and result will be show in first client terminal.
+tcp_server/chat_app/server.js -> run this command in terminal.<br>
+$ node server.js<br>
+then now open two other terminals so now there are theree terminals one is server and other two terminals are two clients.
+Please type this command in both client terminals.<br>
+$ nc localhost 4002<br>
+Now type anything in client 1 terminal and the result will be show in second client 2 terminal. Type anything in second client terminal and result will be show in first client terminal.<br>
