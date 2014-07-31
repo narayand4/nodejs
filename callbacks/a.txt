@@ -1,0 +1,5 @@
+Note that the function named append_some_a_to_b, which implements the callback flow for the
+task, places the declaration of the callback functions inline, which leads to this deeply nested code.
+To the untrained eye, code structured this way can be hard to read.
+Worse yet, if you needed to conditionally perform some I/O before the final operation, structuring
+the code this way could lead to a lot of duplication.
