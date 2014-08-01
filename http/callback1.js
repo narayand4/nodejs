@@ -1,4 +1,4 @@
-var port = process.argv[2] && parseInt(process.argv[2], 10) || 4000;
+var port = process.argv[2] && parseInt(process.argv[2], 10) || 4002;
 require('http').createServer(function(req, res) {
 	var body = '';
 	req.setEncoding('utf8');
