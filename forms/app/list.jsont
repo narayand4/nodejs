@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <title>All Users</title>
+        <style>
+            ul li{
+                display:inline-block;
+                margin-right: 20px;
+                width:200px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>All users</h1>
+        {userlist}
+    </body>
+</html>
+
