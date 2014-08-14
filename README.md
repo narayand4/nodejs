@@ -48,3 +48,7 @@ Please type this command in both client terminals.<br>
 $ nc localhost 4002<br>
 
 Now type anything in first client terminal and the result will be show in second client terminal. Type anything in second client terminal and result will be show in first client terminal. please view this image<br> https://github.com/narayand4/nodejs/blob/master/tcp_server/chat_app/Screenshot%20from%202014-07-29%2015:55:30.png<br>
+
+Node SASS lib
+-------------------------------------------------------------
+$ sudo npm install node-sass<br>
