@@ -1,0 +1,10 @@
+extends ../layout
+
+block content
+  h1= title
+  p
+   a(href="/users/create") Create new user
+  - for(var username in users) {
+    li
+     a(href="/users/update/" + encodeURIComponent(username))= users[username].name
+  - };

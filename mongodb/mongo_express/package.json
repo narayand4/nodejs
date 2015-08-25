@@ -1,0 +1,11 @@
+{
+	"name": "express_mongo"
+	, "version": "0.0.1"
+	, "private": true
+	, "dependencies": {
+		"express": "2.5.11"
+		, "jade": ">= 0.0.1"
+		, "mongoose": ">=2.7.0"
+		, "async": "0.1.22"
+	}
+}

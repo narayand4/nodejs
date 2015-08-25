@@ -1,0 +1,19 @@
+extends ../layout
+
+block content
+  h1= title
+  form(method="POST", action="/users/create")
+   p
+    label(for="username") Username<br />
+    input#username(name="username")
+   p
+    label(for="password") Password<br />
+    input#password(name="password" type="password")
+   p
+    label(for="name") Name<br />
+    input#name(name="name")
+   p
+    label(for="bio") Bio<br />
+    textarea#bio(name="bio")
+   p
+    input(type="submit", value="Create")

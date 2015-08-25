@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose config Skipping project config: /home/narayand4/.npmrc. (matches userconfig)
+6 error install Couldn't read dependencies
+7 error package.json ENOENT, open '/home/narayand4/package.json'
+7 error package.json This is most likely not a problem with npm itself.
+7 error package.json npm can't find a package.json file in your current directory.
+8 error System Linux 3.13.0-48-generic
+9 error command "/usr/bin/node" "/usr/bin/npm" "install"
+10 error cwd /home/narayand4/projects/nodejs/expressjs
+11 error node -v v0.10.37
+12 error npm -v 1.4.28
+13 error path /home/narayand4/package.json
+14 error code ENOPACKAGEJSON
+15 error errno 34
+16 verbose exit [ 34, true ]
