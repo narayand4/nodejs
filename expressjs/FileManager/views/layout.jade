@@ -1,0 +1,22 @@
+doctype
+html
+  head
+    title File Store
+    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=IM+Fell+Great+Primer')
+    link(rel='stylesheet', href='/stylesheets/normalize.css', type='text/css')
+    link(rel='stylesheet', href='/stylesheets/style.css', type='text/css')
+  body
+    header
+      h1 File Store
+
+      if isLoggedIn
+        div
+          form(action='/sessions', method='POST')
+            input(type='hidden', name='_method', value='DELETE')
+            input(type='submit', class='sign-out', value='Sign out')
+
+    div.container
+      block content
+
+    script(src='http://code.jquery.com/jquery-1.10.1.min.js')
+    script(src='/javascripts/file-upload.js')

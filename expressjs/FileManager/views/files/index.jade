@@ -1,0 +1,41 @@
+extends ../layout
+
+block content
+  h2 Hello #{username}
+
+  if !files.length
+    h3 You don't have any files stored!
+  else
+    h3 You have #{files.length} files stored!
+
+  if info
+    p.notification.info= info
+
+  if error
+    p.notification.error= error
+
+
+  div#upload-form
+    form(action='/files', method='POST', enctype="multipart/form-data")
+      div.browse-file
+        input(type='text', id='fake-upload-box', placeholder='Upload new file!')
+        input(type='file', name='file')
+      button(type='submit') Go!
+
+  if files.length
+    table.file-list
+      thead
+        tr
+          th Name
+          th Size
+          th Delete
+      tbody
+        each file in files
+          tr
+            td
+              a(href="/files/#{encodeURIComponent(file.name)}") #{file.name}
+            td #{helpers.files.formatSize(file.stats.size)}
+            td
+              form(action="/files/#{encodeURIComponent(file.name)}", method='POST')
+                input(type='hidden', name="_method", value='DELETE')
+                input(type='submit', value='delete')

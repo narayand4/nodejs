@@ -1,0 +1,6 @@
+{
+	"mongoUrl": "mongodb://localhost/filestore",
+	"port": 3000,
+	"sessionSecret": "random chars here",
+	"sessionMaxAge": 3600000
+}

@@ -1,0 +1,18 @@
+extends ../layout
+
+block content
+  div.user-form
+    h2 Login
+
+    if error
+      p.notification.error= error
+
+    if info
+      p.notification.info= info
+
+    form(action='/sessions', method='post')
+      p: input(type='text', name='username', placeholder='Username')
+      p: input(type='password', name='password', placeholder='Password')
+      p: input(type='submit', value='Login')
+
+    p: a(href='/users/new') New user? Signup!
